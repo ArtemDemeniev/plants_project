@@ -275,6 +275,7 @@ body{
     line-height: 20px;
     color: #000000;
     text-align: left;
+    padding: 16px 0 16px 40px;
     
 }
 .prices__boxes{
@@ -283,8 +284,7 @@ body{
     
 }
 .prices__name{
-    padding: 16px 0 16px 40px;
-    position: relative;
+
 }
 .description__headtitle--prices{
     font-style: normal;
@@ -306,15 +306,7 @@ body{
     text-align: center;
     color: #E06733;
 }
-.prices__name::after{
-    content:'';
-    width: 16px;
-    height: 16px;
-    background-image: url('/assets/img/accordion_btn.png');
-    position: absolute;
-    top: 16px;
-    right: 40px;
-}
+
 .flex{
     display: flex;
     flex-direction: column;
