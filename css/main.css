@@ -192,9 +192,15 @@ body{
     width: 161px;
     height: 50px;
     text-transform: capitalize;
+    transition: .2s ease;
 }
 .description__button--another + .description__button--another{
     margin-left: 32px;
+}
+.description__button--another:hover{
+    background-color: #E06733;
+    border: none;
+    color: #fff;
 }
 .service-nav{
     display: flex;
@@ -311,7 +317,13 @@ body{
     color: #000000;
     text-align: left;
     padding: 16px 0 16px 40px;
+    transition: .2s ease;
     
+}
+.description__button--prices:hover{
+    background-color: #E06733;
+    border: none;
+    color: #fff;
 }
 .prices__boxes{
     display: flex;
