@@ -235,8 +235,11 @@ body{
     gap: 55px 0;
     margin-bottom: 121px;
 }
-.card {
-
+.card{
+    transition: 0.2s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.2);
 }
 .card__item {
     width: 329px;
@@ -428,7 +431,7 @@ width: 100%;
 content:'';
 width: 400px;
 height: 497px;
-background-image:url('./assets/img/contact_woman_1.png');
+background-image:url('/assets/img/contact_woman_1.png');
 position: absolute;
 bottom:0;
 left: 0;
