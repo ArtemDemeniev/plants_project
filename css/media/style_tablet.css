@@ -1,0 +1,202 @@
+@media screen and (max-width: 768px) and (min-width: 380px ){
+    html{
+        
+    }
+    .header{
+min-height: 537px;
+    }
+    .container{
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    .welcome-wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+    .main-pic{
+        max-width: 280px;
+        max-height: 254px;
+        position: relative;
+        bottom: 32px;
+    }
+    .description{
+        margin: 0;
+        max-width: 346px;
+        padding-bottom: 30px;
+    }
+    .description__title{
+        max-width: 346px;
+        margin-bottom: 30px;
+    }
+    .description__headtitle{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .description__span{
+        color: #499A18;
+    }
+    .description__subtitle{
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 341px;
+        margin-bottom: 30px;
+        position: relative;
+        left: 4px;
+    }
+    .description__button{
+        width: 158px;
+        height: 44px;
+        text-transform: uppercase;
+    }
+    .description__button--one{
+        border: 2px solid #E06733;
+        border-radius: 10px;
+        color: #000;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        transition: 0.2s ease;
+        position: relative;
+        top: 4px;
+    }
+    .description__button--one:hover{
+        background-color: #E06733;
+        border: none;
+        color: #fff;
+        }
+        /* ----------about---------- */
+        .about {
+            min-height: 768px;
+            width: 100%;
+        }
+        .container {
+            max-width: 768px;
+            margin: 0 auto;
+            padding: 0 50px;
+        }
+        .about__wrapper {
+        flex-direction: column;
+        }
+        .about__info {
+            margin-top: 40px;
+        }
+        .about__title {
+            max-width: 423px;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .about__header {
+            font-family: 'Inika';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 46px;
+        }
+        .about__header h2{
+    
+        }
+        .about__span {
+        }
+        .about__subtitle {
+            max-width: 768px;        }
+
+        .about__houseplant {
+            padding: 68px 0 96px 0;
+            margin: 0;
+        }
+        .about__item {
+            width: 250px;
+            height: 258px;
+        }
+        /* services */
+        .service{
+            min-height: 1260px;
+            background-color: #EDF2EC;
+        }
+        
+        .description__button--another{
+            font-family: 'Inika';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            color: #E06733;
+            border: 1px solid #E06733;
+            border-radius: 5px;
+            width: 161px;
+            height: 50px;
+            text-transform: capitalize;
+            transition: .2s ease;
+        }
+        .description__button--another + .description__button--another{
+            margin-left: 32px;
+        }
+        .description__button--another:hover{
+            background-color: #E06733;
+            border: none;
+            color: #fff;
+        }
+        .service-nav{
+            margin-top: 60px;
+        }
+        .service__title{
+            max-width: 306px;
+
+        }
+        .service__item{
+            font-size: 35px;
+            line-height: 46px;
+        }
+        .service__buttons{
+            margin-top: 40px;
+            position: relative;
+            right: 0px;
+            top: 1px;
+            display: flex;
+            margin-left: 0;
+        }  
+        .product-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+            gap: 38px 0;
+            margin-bottom: 70px;
+        }
+        .card{
+            transition: 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.2);
+        }
+        .card__item {
+            width: 280px;
+            height: 350px;
+            border-radius: 20px 20px 0px 0px;
+        }
+        .card__description {
+            padding-top: 9px;
+            border: 1px solid #E3E1D5;
+            border-radius: 0px 0px 20px 20px;
+        }
+        .card__title {
+            text-align: center;
+        }
+        .card__subtitle {
+            width: 100%;
+            padding: 10px 40px 20px ;
+
+        }
+        .card__text {
+            margin: 0 auto;
+            width: 201px;
+        }
+}

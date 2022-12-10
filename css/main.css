@@ -1,5 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@300;400;600;700&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
@@ -19,7 +21,7 @@ body{
     
 }
 .header{
-    height: 666px;
+    min-height: 666px;
 }
 .container{
     max-width: 1252px;
@@ -52,6 +54,7 @@ body{
 .nav__link--color{
     color: #010201;
 }
+
 .logo__item{
     width: 79px;
     height: 21px;
@@ -59,13 +62,12 @@ body{
     position: relative;
     left: 1px;
 }
-.welcome{
-    min-height: 532px;
-}
+
 .welcome-wrapper{
     display: flex;
     align-items: center;
     margin-top: 62px;
+    justify-content: space-between;
 }
 .main-pic__item{
     width: 407px;
@@ -73,10 +75,12 @@ body{
     position: relative;
     top: -10px;
     left: -10px;
+   
 }
 .description{
-    margin-left: 214px;
-    margin-top: -15px;
+    /* margin-left: 214px; */
+    margin-top: -41px;
+    
 }
 .description__title{
     max-width: 550px;
@@ -91,7 +95,7 @@ body{
     font-size: 45px;
     line-height: 50px;
     color: #717171;
-    transform: translateY(3px);
+    margin-top: 22px;
 }
 .description__span{
     color: #499A18;
@@ -105,6 +109,7 @@ body{
     color: #636060;
     max-width: 525px;
     margin-bottom: 48px;
+
 }
 .button{
     
@@ -177,7 +182,7 @@ body{
     color: #636060;
 }
 .service{
-   min-height: 1260px;
+    min-height: 1260px;
     background-color: #EDF2EC;
 }
 .description__button--another{
@@ -517,3 +522,5 @@ z-index: -1;
 .height{
     height: 550px;
 }
+/* media query */
+
